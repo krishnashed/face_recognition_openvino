@@ -1,0 +1,18 @@
+{
+    "apps": [
+      {
+        "name": "Fileserver",
+        "script": "./data-store/index.js",
+        "watch": true,
+        "ignore_watch": ["node_modules"]
+      },
+      {
+        "name": "FrontEnd",
+        "cwd": "./faces_website",
+        "script": "npm",
+        "args": "start",
+        "watch": true,
+        "ignore_watch": ["node_modules"]
+      }
+    ]
+}

@@ -1,0 +1,1 @@
+python3 face_recognition_demo.py -i classroom.mp4 -m_fd models/face-detection-retail-0004.xml -m_lm models/landmarks-regression-retail-0009.xml -m_reid models/face-reidentification-retail-0095.xml -fg data-store/uploads -t_fd 0.35 -t_id 0.80 --allow_grow
